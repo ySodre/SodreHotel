@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    height: calc(100vh - 100px);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: no-repeat center/cover url("../assets/hotelheader.jpg");
+
+}
+
+header .painel-nav {
+    background-color: rgba(204,117,17, 0.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+
+    margin-top: 30px;
+    height: 50px;
+    width: 80vw;
+    
+}
+
+header .painel-nav .menu ul{
+
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+header .card-form {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 180px;
+    height: 270px;
+    background-color: rgba(204,117,17, 0.8);
+    color: white;
+
+    
+}
+
+header .card-form h1 {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+header .card-form form {
+    text-align: center;
+}
+
+header .card-form p {
+    /* display: inline-block; */
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+header .card-form input{
+    width: 80%;
+    color: rgb(204,117,17);
+    font-weight: bolder;
+    text-align: center;
+   
+    
+}
+
+header .card-form select{
+    width: 80%;
+    font-weight: bolder;
+    color: rgb(204,117,17);
+    text-align: center;
+    
+}
+
+header .card-form input[type="submit"] {
+    color: rgb(204,117,17) ;
+    font-weight: bolder;
+    background-color: white;
+    border: none;
+    margin-top: 20px;
+    height: 30px;
+}
